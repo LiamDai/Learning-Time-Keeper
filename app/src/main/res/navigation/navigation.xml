@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/learning_tracker_fragment">
+
+    <fragment
+        android:id="@+id/learning_tracker_fragment"
+        android:name="com.example.android.learningtimekeeper.learningtracker.LearningTrackerFragment"
+        android:label="@string/learning_tracker_fragment"
+        tools:layout="@layout/fragment_learning_tracker">
+        <action
+            android:id="@+id/action_learningTrackerFragment_to_learningQualityFragment"
+            app:destination="@id/learning_quality_fragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popEnterAnim="@anim/slide_in_right" />
+        <action
+            android:id="@+id/action_learning_tracker_fragment_to_learningDetailFragment"
+            app:destination="@id/learning_detail_fragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popEnterAnim="@anim/slide_in_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/learning_quality_fragment"
+        android:name="com.example.android.learningtimekeeper.learningquality.LearningQualityFragment"
+        android:label="@string/learning_quality_fragment"
+        tools:layout="@layout/fragment_learning_quality">
+        <argument
+            android:name="learningTimeKey"
+            app:argType="long" />
+        <action
+            android:id="@+id/action_learningQualityFragment_to_learningTrackerFragment"
+            app:destination="@id/learning_tracker_fragment"
+            app:launchSingleTop="false"
+            app:popUpTo="@+id/learning_tracker_fragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/learning_detail_fragment"
+        android:name="com.example.android.learningtimekeeper.learningdetail.LearningDetailFragment"
+        android:label="fragment_learning_detail"
+        tools:layout="@layout/fragment_learning_detail" >
+        <argument
+            android:name="learningTimeKey"
+            app:argType="long" />
+        <action
+            android:id="@+id/action_learningDetailFragment_to_learning_tracker_fragment"
+            app:destination="@id/learning_tracker_fragment"
+            app:launchSingleTop="false"
+            app:popUpTo="@+id/learning_tracker_fragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+</navigation>

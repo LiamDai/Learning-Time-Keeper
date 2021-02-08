@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- App title and fragment titles -->
+    <string name="app_name">Learning Time Keeper</string>
+    <string name="learning_tracker_fragment">LearningTracker</string>
+    <string name="learning_quality_fragment">LearningQuality</string>
+
+    <!-- Button labels -->
+    <string name="start">开始记录</string>
+    <string name="stop">休息一下</string>
+    <string name="clear">清除数据</string>
+
+    <!-- contentDescription strings for quality icons -->
+    <string name="quality_0">学习任务完成数 0</string>
+    <string name="quality_1">学习任务完成数 1</string>
+    <string name="quality_2">学习任务完成数 2</string>
+    <string name="quality_3">学习任务完成数 3</string>
+    <string name="quality_4">学习任务完成数 4</string>
+    <string name="quality_5">学习任务完成数 5</string>
+
+    <!-- Output to TextView styled with a little HTML -->
+    <string name="title"><![CDATA[<h3>HERE IS YOUR LEARNING DATA</h3>]]></string>
+    <string name="start_time"><![CDATA[<b>Start:</b>]]></string>
+    <string name="end_time"><![CDATA[<b>End:</b>]]></string>
+    <string name="quality"><![CDATA[<b>Quality:</b>]]></string>
+    <string name="hours_used"><![CDATA[<b>Hours:Minutes:Seconds</b>]]></string>
+
+    <!-- Sleep quality strings -->
+    <string name="how_was_hour_sleep">学得快乐吗？学习任务完成了多少？</string>
+    <string name="zero_very_bad">糟透了</string>
+    <string name="one_poor">不满意</string>
+    <string name="two_soso">一般般</string>
+    <string name="three_ok">还可以</string>
+    <string name="four_pretty_good">很充实</string>
+    <string name="five_excellent">很快乐!</string>
+
+    <!-- Toast to play after Clear button has been pressed -->
+    <string name="cleared_message">数据已清除！</string>
+
+    <string name="header_text">学习成果</string>
+    <string name="close">关闭</string>
+    <string name="minutes_length">%d minutes on %s</string>
+    <string name="hours_length">%d hours on %s</string>
+    <string name="seconds_length">%d seconds on %s</string>
+</resources>
