@@ -63,5 +63,31 @@ https://developer.android.com/codelabs/kotlin-coroutines#0
 UdaCity Video:
 https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9012
 
+ScreenShot & Usage
+------------
+The home page records the previous data, and the "Clear Data Button" at the bottom of the home page, which is used to clear all the data
+
+主页面记录着之前的数据，底部的清楚数据按钮可以清除所有数据
+
+![Image description](https://github.com/LiamDai/Learning-Time-Keeper/blob/master/ScreenShot/begining.png)
+
+点击开始记录后会开始计时
+
+Click “Start Record Button” to start the timer
+
+![Image description](https://github.com/LiamDai/Learning-Time-Keeper/blob/master/ScreenShot/afterClickStart.png)
+
+Clicking the “End Record Button” would switch it to the choosing page, which allow us to choose a variety of states
+
+点击结束计时后会跳转到打卡页面，选择多种状态
+
+![Image description](https://github.com/LiamDai/Learning-Time-Keeper/blob/master/ScreenShot/afterClickEnd.png)
+
+Click on each small image of the main page to take us to the detailed information page
+
+在主页面点击每个小图片都可以进入详细信息页面
+
+![Image description](https://github.com/LiamDai/Learning-Time-Keeper/blob/master/ScreenShot/detail.png)
+
 
 
