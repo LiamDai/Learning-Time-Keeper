@@ -45,7 +45,7 @@ Thanks a lot for the hard work from Google and Udacity staff.
 Below are the related links for reference.
 
 这个项目参考了谷歌官方的代码实验室和UdaCity的视频课程。
-他们给予了我做这个项目所需的灵感和支持。非常感谢谷歌和Udacity全体员工的辛勤工作。
+非常感谢他们给予了我做这个项目所需的灵感和支持。
 以下是相关链接，以供参考和学习帮助。
 
 Kotlin CodeLab：
