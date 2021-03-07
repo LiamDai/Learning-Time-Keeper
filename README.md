@@ -1,6 +1,6 @@
 Learning Time Keeper
 ====================
-学习时间记录者
+学习时间记录者（如果有做得不好的地方，还请见谅）
 
 Introduction
 ------------
@@ -30,14 +30,7 @@ Learning Time Keeper是一款记录每天学习时间的应用程序。
 
 项目中添加了很多注释，这些注释可能会影响代码的可读性。
 但这么做是为了帮助像我这样记性不好的同学更好地学习Kotlin Android开发。
-衷心地希望这个项目能帮助更多的人。Cheers～！
-
-Important 
-------------
-!!! This project is for personal study only, not for other purposes. 
-If you need to forward it, please indicate the source.
-
-!!! 此项目仅供个人学习使用，不可用于其它用途，如需转发请注明出处。
+希望这个项目能帮助更多的人。Cheers～！
 
 References
 ------------
@@ -98,6 +91,11 @@ Click on each small image of the main page to take us to the detailed informatio
 在主页面点击每个小图片都可以进入详细信息页面
 
 ![Image description](https://github.com/LiamDai/Learning-Time-Keeper/blob/master/ScreenShot/detail.png)
+
+This project is for personal study only, not for other purposes. 
+If you need to forward it, please indicate the source.
+
+此项目仅供个人学习使用，不可用于其它用途，如需转发请注明出处。
 
 
 
