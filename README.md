@@ -34,11 +34,6 @@ Learning Time Keeper是一款记录每天学习时间的应用程序。
 
 References
 ------------
-This project refers Google's official CodeLab and UdaCity's video courses. 
-They provided the inspiration and support I needed to make this project.
-Thanks a lot for the hard work from Google and Udacity staff. 
-Below are the related links for reference.
-
 这个项目参考了谷歌官方的代码实验室和UdaCity的视频课程。
 非常感谢他们给予了我做这个项目所需的灵感和支持。
 以下是相关链接，以供参考和学习帮助。
@@ -53,10 +48,7 @@ Below are the related links for reference.
 
 [UdaCity Video](https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9012)
 
-The design pattern and design principles used are explained in detail in the comments to the code. 
-If you want to learn more about refactoring techniques design patterns and design principles, please check out the video course on Linkedin Learning.
-
-代码的注释中详细解释了使用的设计模式设计原则，如果你希望了解更多重构技巧和设计模式，设计原则可以参考Linkedin Learning的视频课程。
+代码的注释中详细解释了使用的设计模式设计原则，如果你希望了解更多重构技巧和设计模式，设计原则可以参考Linkedin Learning的视频课程，RefactoringRuru网站和Martin Fowler的《重构》。
 
 [Code smell and Design smell](https://www.linkedin.com/learning/software-design-code-and-design-smells/vet-class-level-smells?u=57895809)
 
@@ -65,28 +57,22 @@ If you want to learn more about refactoring techniques design patterns and desig
 [Design Patterns](https://www.linkedin.com/learning/programming-foundations-design-patterns-2/don-t-reinvent-the-wheel?u=57895809)
 
 [Design Principles](https://www.linkedin.com/learning/advanced-design-patterns-design-principles/take-your-design-to-the-next-level?u=57895809)
+[refactoringGuru](https://refactoring.guru/)
+[Martin Fowler's book "Refactoring"](https://refactoring.com/)
 
 ScreenShot & Usage
 ------------
-The home page records the previous data, and the "Clear Data Button" at the bottom of the home page, which is used to clear all the data
-
 主页面记录着之前的数据，底部的清楚数据按钮可以清除所有数据
 
 ![Image description](https://github.com/LiamDai/Learning-Time-Keeper/blob/master/ScreenShot/begining.png)
 
 点击开始记录后会开始计时
 
-Click “Start Record Button” to start the timer
-
 ![Image description](https://github.com/LiamDai/Learning-Time-Keeper/blob/master/ScreenShot/afterClickStart.png)
-
-Clicking the “End Record Button” would switch it to the choosing page, which allow us to choose a variety of states
 
 点击结束计时后会跳转到打卡页面，选择多种状态
 
 ![Image description](https://github.com/LiamDai/Learning-Time-Keeper/blob/master/ScreenShot/afterClickEnd.png)
-
-Click on each small image of the main page to take us to the detailed information page
 
 在主页面点击每个小图片都可以进入详细信息页面
 
