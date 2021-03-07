@@ -57,7 +57,9 @@ References
 [Design Patterns](https://www.linkedin.com/learning/programming-foundations-design-patterns-2/don-t-reinvent-the-wheel?u=57895809)
 
 [Design Principles](https://www.linkedin.com/learning/advanced-design-patterns-design-principles/take-your-design-to-the-next-level?u=57895809)
+
 [refactoringGuru](https://refactoring.guru/)
+
 [Martin Fowler's book "Refactoring"](https://refactoring.com/)
 
 ScreenShot & Usage
