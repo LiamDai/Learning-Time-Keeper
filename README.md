@@ -62,6 +62,12 @@ References
 
 [Martin Fowler's book "Refactoring"](https://refactoring.com/)
 
+如果想进一步了解我的学习路线可以参考我的Notion博客链接，里面收集和整理了基础知识，同时记录了我最近在看的书《Android开发艺术探索》
+
+（注：需使用VPN才能登陆Notion）
+
+[My Notion Blog](https://www.notion.so/3c83d733b7b84ad0aac45a75994cc394?v=83158c7e5f354a4383e2a59b445605a4)
+
 ScreenShot & Usage
 ------------
 主页面记录着之前的数据，底部的清楚数据按钮可以清除所有数据
